@@ -1617,5 +1617,15 @@ var simplemaps_worldmap_mapdata={
       size: "default"
     }
   },
+regions: {
+	0: {
+		name: "North America",
+		states: ["MX","CA","US","GL"]
+	},
+	1: {
+		name: "South America",
+		states: ["BR","AR","CH","CO"]
+	}
+}
   labels: {}
 };
