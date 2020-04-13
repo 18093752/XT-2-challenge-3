@@ -1622,7 +1622,7 @@ regions: {
 "1":{name:"South America",states:["EC","AR","VE","BR","CO","BO","PE","BZ","CL","CR","CU","DO","SV","GT","GY","GF","HN","NI","PA","PY","PR","SR","UY","JM","HT","BS","FK","AI","AG","AW","BB","VG","KY","DM","MQ","LC","VC","GD","GP","MS","TC","SX","MF","KN","CW"]},
 "2":{name:"Europe",states:["IT","NL","NO","DK","IE","GB","RO","DE","FR","AL","AM","AT","BY","BE","LU","BG","CZ","EE","GE","GR","HU","IS","LV","LT","MD","PL","PT","RS","SI","HR","BA","ME","MK","SK","ES","FI","SE","CH","TR","CY","UA","XK","MT","FO"]},
 "3":{name:"Afrika",states:["NE","AO","EG","TN","GA","DZ","LY","CG","GQ","BJ","BW","BF","BI","CM","CF","TD","CI","CD","DJ","ET","GM","GH","GN","GW","KE","LS","LR","MG","MW","ML","MA","MR","MZ","NA","NG","ER","RW","SN","SL","SO","ZA","SD","SS","SZ","TZ","TG","UG","EH","ZM","ZW","RE","KM","SC","MU","CV","IC","ST","YT"]},
-"4":{name:"Asia",states:["TJ","TM","UZ","KG","SG","TW","IN","NP","TH","JP","VN","LK","BD","BT","KH","LA","MM","KP","KR","CN","MV","NC", "QA","BH","SA","AE","SY","OM","KW","PK","AZ","AF","IR","IQ","IL","PS","JO","LB","YE","MU", "RU", "KZ"]},
+"4":{name:"Asia",states:["MN","TJ","TM","UZ","KG","SG","TW","IN","NP","TH","JP","VN","LK","BD","BT","KH","LA","MM","KP","KR","CN","MV","NC", "QA","BH","SA","AE","SY","OM","KW","PK","AZ","AF","IR","IQ","IL","PS","JO","LB","YE","MU", "RU", "KZ"]},
 "5":{name:"Oceania",states: ["AU","MY","NZ","PH","PG","BN", "SB", "TT", "TO", "VU", "NR","FJ","ID"]}
 
 },
