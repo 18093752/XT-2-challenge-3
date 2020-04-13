@@ -1625,6 +1625,6 @@ regions: {
 "4":{name:"Asia",states:["SG","TW","IN","NP","TH","JP","VN","LK","BD","BT","KH","LA","MM","KP","KR","CN","MV","NC", "QA","BH","SA","AE","SY","OM","KW","PK","AZ","AF","IR","IQ","IL","PS","JO","LB","YE","MU", "RU", "KZ"]},
 "5":{name:"Oceania",states: ["AU","MY","NZ","PH","PG","BN", "SB", "TT", "TO", "VU", "NR","FJ","ID"]}
 
-}
+},
   labels: {}
 };
