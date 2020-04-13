@@ -1,7 +1,7 @@
 var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
-		width: "700", //or 'responsive'
+		width: "responsive", //or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     popups: "detect",
@@ -1573,25 +1573,43 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {
     "0": {
-      name: "Paris",
-      lat: "48.866666670",
-      lng: "2.333333333",
+      name: "Vandenberg Air Force Base",
+      lat: "34.755947",
+      lng: "-120.516107",
       color: "default",
       description: "default",
       url: "default"
     },
     "1": {
-      name: "Tokyo",
-      lat: "35.666666670",
-      lng: "139.750000000",
+      name: "Cape Canaveral Air Force Station, U.S",
+      lat: "28.487727",
+      lng: "-80.577557",
       color: "default",
       description: "default",
       url: "default"
     },
     "3": {
-      name: "New York",
-      lat: "40.71",
-      lng: "-74.0059731",
+      name: "Tanegashima Space Center",
+      lat: "30.374811",
+      lng: "130.958028",
+      description: "default",
+      color: "default",
+      url: "default",
+      size: "default"
+    },
+     "4": {
+      name: "Xichang Satellite Launch Center",
+      lat: "27.892556",
+      lng: "102.244780",
+      description: "default",
+      color: "default",
+      url: "default",
+      size: "default"
+    },
+     "5": {
+      name: "Satish Dhawan Space Centre",
+      lat: "13.725475",
+      lng: "80.226732",
       description: "default",
       color: "default",
       url: "default",
