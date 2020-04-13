@@ -1628,3 +1628,5 @@ regions: {
 },
   labels: {}
 };
+
+simplemaps_worldmap_mapdata.locations[5].description = "Test 123"
