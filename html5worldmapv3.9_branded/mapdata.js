@@ -23,7 +23,7 @@ var simplemaps_worldmap_mapdata={
     location_opacity: 1,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 10,
+    location_size: 20,
     location_type: "marker",
     location_border_color: "#FFFFFF",
     location_border: 1,
