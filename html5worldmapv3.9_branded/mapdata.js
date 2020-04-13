@@ -75,7 +75,7 @@ var simplemaps_worldmap_mapdata={
     AF: {
       name: "Afghanistan",
       description: "default",
-      color: "default",
+      color: "#FF00FF",
       hover_color: "default",
       url: "default"
     },
