@@ -1160,7 +1160,7 @@ var simplemaps_worldmap_mapdata={
     US: {
       name: "United States",
       description: "default",
-      color: "default",
+      color: "#FF0000",
       hover_color: "default",
       url: "default"
     },
