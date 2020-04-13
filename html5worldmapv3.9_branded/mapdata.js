@@ -2,13 +2,13 @@ var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
 		width: "responsive", //or 'responsive'
-    background_color: "#FFFFFF",
+    background_color: "#000000",
     background_transparent: "yes",
     popups: "detect",
     
 		//State defaults
 		state_description: "State description",
-    state_color: "#88A4BC",
+    state_color: "#DDDDDD",
     state_hover_color: "#3B729F",
     state_url: "https://simplemaps.com",
     border_size: 1.5,
