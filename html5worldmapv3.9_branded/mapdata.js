@@ -1629,4 +1629,14 @@ regions: {
   labels: {}
 };
 
+var topartists1;
+
+fetch(http://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=usa&limit=3&api_key=4853cb54b551dbb3a43d5dc5470de465)
+      .then(response => {
+      return response.json()
+})
+.then(topartists => {topartists1 = [topartists[0].name,topartists[1].name,topartists[2].name]});
+	
+window.alert(topartists1)
+
 simplemaps_worldmap_mapdata.locations[5].description = "Test 123"
