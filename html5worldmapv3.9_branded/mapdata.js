@@ -26,7 +26,7 @@ var simplemaps_worldmap_mapdata={
     location_size: 20,
     location_type: "marker",
     location_border_color: "#000000",
-    location_border: 0,
+    location_border: 0.1,
     location_hover_border: 1.5,
     all_locations_inactive: "no",
     all_locations_hidden: "no",
