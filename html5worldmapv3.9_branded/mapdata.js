@@ -1637,7 +1637,7 @@ fetch("https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=spain
       return response.json()
 })
 .then(data => {console.log(data)
-	      topartists1 = [data.topartists[0].name,data.topartists[1].name,data.topartists[2].name]
+	      topartists1 = [data.artist[0].name,data.artist[1].name,data.artist[2].name]
 	      
 	      
 	      });
