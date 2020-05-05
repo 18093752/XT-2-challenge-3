@@ -3,17 +3,17 @@ var simplemaps_worldmap_mapdata={
     //General settings
 		width: "responsive", //or 'responsive'
     background_color: "#000000",
-    background_transparent: "no",
+    background_transparent: "yes",
     popups: "detect",
     
 		//State defaults
 		state_description: "State description",
     state_color: "#DDDDDD",
-    state_opacity: 0.5,
+    state_opacity: 1,
     state_hover_color: "#3B729F",
     state_url: "",
-    border_size: 0.5,
-    border_color: "#ffffff",
+    border_size: 1,
+    border_color: "#DDDDDD",
     all_states_inactive: "no",
     all_states_zoomable: "no",
     
