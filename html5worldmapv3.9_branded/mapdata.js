@@ -1636,9 +1636,13 @@ fetch("https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=spain
 	console.log(response.status)
       return response.json()
 })
-.then(data => {console.log(data)})
-.then(topartists => {topartists1 = [topartists[0].name,topartists[1].name,topartists[2].name]});
+.then(data => {console.log(data)
+	      topartists1 = [data.topartists[0].name,data.topartists[1].name,data.topartists[2].name]
+	      
+	      
+	      });
+
 	
 window.alert(topartists1);
 
-simplemaps_worldmap_mapdata.locations[5].description = "Test 123";
+simplemaps_worldmap_mapdata.locations[5].description = topartists1[0] + topartists1[1] + topartists1[2];
