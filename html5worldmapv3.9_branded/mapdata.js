@@ -1635,6 +1635,7 @@ fetch("https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=usa&l
       .then(response => {
       return response.json()
 })
+.then(topartist => {console.log(topartist[0].rank)})
 .then(topartists => {topartists1 = [topartists[0].name,topartists[1].name,topartists[2].name]});
 	
 window.alert(topartists1);
