@@ -1612,7 +1612,7 @@ var simplemaps_worldmap_mapdata={
       lat: "13.725475",
       lng: "80.226732",
       description: "default",
-      color: "default",
+      color: "green",
       url: "default",
       size: "default"
     }
