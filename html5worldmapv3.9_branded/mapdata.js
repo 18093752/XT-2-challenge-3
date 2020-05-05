@@ -1631,7 +1631,7 @@ regions: {
 
 var topartists1;
 
-fetch("https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=usa&limit=3&api_key=4853cb54b551dbb3a43d5dc5470de465&format=json")
+fetch("https://ws.audioscrobbler.com/2.0/?method=geo.gettopartists&country=spain&limit=3&api_key=4853cb54b551dbb3a43d5dc5470de465&format=json")
       .then(response => {
 	console.log(response.status)
       return response.json()
