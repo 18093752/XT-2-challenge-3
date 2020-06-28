@@ -1,8 +1,24 @@
 <html>
-<head>
-<script type="text/javascript" src="html5worldmapv3.9_branded/mapdata.js"></script>		
-<script  type="text/javascript" src="html5worldmapv3.9_branded/worldmap.js"></script>
-</head>
-<body>
-<div id="map"></div>
-</body
+	<head>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="apicalls.js"></script>	
+	<script type="text/javascript" src="scripts.js"></script>	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div id="map"><img src="world-map.svg"/>
+			<div id="locatie1" class="locatie" onclick="togglefold()"></div>
+			<div id="locatie2" class="locatie" onclick="togglefold()"></div>
+			<div id="locatie3" class="locatie" onclick="togglefold()"></div>
+			<div id="locatie4" class="locatie" onclick="togglefold()"></div>
+			<div id="locatie5" class="locatie" onclick="togglefold()"></div>
+		</div>
+		<div id="infoContainer" onclick="togglefold()">
+			<div class="info"><h3><span id="locatie1Pos"></span><span> California</span></h3><div class="locatieInfo" id="locatie1Music"><p class="music">Description text here</p></div><div class="locatieInfo" id="locatie1Weer"><p>No Data</p></div></div>
+			<div class="info"><h3><span id="locatie2Pos"></span><span>Florida</span></h3><div class="locatieInfo" id="locatie2Music"><p class="music">Description text here</p></div><div class="locatieInfo" id="locatie2Weer"><p>No Data</p></div></div>
+			<div class="info"><h3><span id="locatie3Pos"></span><span>India</span></h3><div class="locatieInfo" id="locatie3Music"><p class="music">Description text here</p></div><div class="locatieInfo" id="locatie3Weer"><p>No Data</p></div></div>
+			<div class="info"><h3><span id="locatie4Pos"></span><span>China</span></h3><div class="locatieInfo" id="locatie4Music"><p class="music" >Description text here</p></div><div class="locatieInfo" id="locatie4Weer"><p>No Data</p></div></div>
+			<div class="info"><h3><span id="locatie5Pos"></span><span>Japan</span></h3><div class="locatieInfo" id="locatie5Music"><p class="music" >Description text here</p></div><div class="locatieInfo" id="locatie5Weer"><p>No Data</p></div></div>
+		</div>
+	</body>
+</html>

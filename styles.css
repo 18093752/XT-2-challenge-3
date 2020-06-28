@@ -1,0 +1,241 @@
+body{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: #018cf5;
+	margin: 0px;
+	font-family: arial;
+}
+
+
+#map{
+	width: 80vw;
+	margin: 5vh 10vw 1vh 10vw;	
+	position: relative;
+}
+
+
+
+div.locatie{
+	width: 25px;
+	position: absolute;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	background-image: url("marker.png");
+	background-position: center;
+	background-size: cover;
+	transform: translate(-50%,-100%);
+	
+}
+
+#infoContainer{
+	width: 90%;
+	margin: 0% 4% 3% 4%;
+	padding: 1%;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0px;
+	background-color: #ffe55d;
+	border-radius:20px;
+	text-align: center;
+}
+
+body.foldout #infoContainer{
+	height: 85vh;
+}
+
+#infoContainer h3{
+	width: 15vw;
+	margin: 5px 0px 5px 0px;
+}
+
+.locatieInfo{
+	display: none;
+	width: 15vw;
+}
+
+body.foldout .locatieInfo{
+	display: block
+}
+
+
+h5{
+	margin: 5px 0px 0px 0px;
+	font-size: 14px;	
+	color: #FB7603;
+	padding-bottom: 10px;
+}
+
+h3{
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+h3 span{
+	font-size: 16px;
+}
+
+span{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 12px; 
+	font-weight: bold;
+}
+
+
+
+.star{
+	width: 15px;
+	margin: 3px;
+}
+
+
+
+.locatie h4{
+	position: absolute;
+	width:100%;
+	margin-top: 1%;
+}
+
+#locatie1{
+	left: 13.3%;
+	top: 43.7%;
+}
+
+#locatie2{
+	left: 24.3%;
+	top: 48.5%;
+}
+
+#locatie3{
+	left: 69.0%;
+	top: 57.5%;
+}
+
+#locatie4{
+	left: 76.1%;
+	top: 41.3%;
+}
+
+#locatie5{
+	left: 83.1%;
+	top: 45.8%;
+}
+
+@media only screen and (min-width: 950px) and (orientation: landscape) {
+
+#infoContainer{
+	width: 90%;
+	margin: 0% 4% 3% 4%;
+	padding: 1%;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0px;
+	background-color: #ffe55d;
+	border-radius:20px;
+	text-align: center;
+}
+
+.locatieInfo{
+	display: block
+}
+	}
+
+	@media only screen and (min-width: 1300px) and (orientation: landscape) {		
+
+#map{
+	width: 55vw;
+	margin: 15vh 0vw 15vh 5vw;	
+}
+
+#infoContainer{
+	width: 40%;
+	position: fixed;
+	right:0px;
+	bottom: 0px;
+	margin: 2% -2% 2% 0%;
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #ffe55d;
+	border-radius:20px;
+	text-align: center;
+	height: 90%;
+	align-items: center;
+}
+
+body.foldout #infoContainer{
+	height: 90%;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	align-items: center;
+}
+
+.locatieInfo{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 90%;
+}
+
+body.foldout .locatieInfo{
+	display: flex
+}
+
+h3{
+	flex-direction: row;
+}
+h3 span{
+	font-size: 24px;
+	
+}
+span{
+	padding-right: 10px;
+}
+
+h5{
+	padding-right: 20px;
+}
+
+
+	}
+
+	@media only screen and (min-width: 1700px) and (orientation: landscape) {
+
+
+h5{
+	margin: 5px 0px 0px 0px;
+	font-size: 26px;	
+	color: #FB7603;
+	padding-bottom: 10px;
+}
+
+
+h3 span{
+	font-size: 32px;
+}
+
+span{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 24px; 
+	font-weight: bold;
+}
+
+
+}
